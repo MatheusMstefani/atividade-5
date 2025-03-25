@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1240px;
+    margin: auto;
+    background-color: #6098C5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 40px;
+}
+
+nav .flex-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .flex-logo h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+nav .flex-logo img {
+    width: 100px;
+    border-radius: 8px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 58px;
+    color: white;
+}
+
+main span {
+    color: #85e9a3;
+}
+
+main h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding-block: 30px;
+}
+
+input {
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 15px;
+    margin-block: 10px;
+    border-radius: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #85e9a3;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+.relative {
+    position: relative;
+}
+
+.elipse {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #85e9a3, transparent);
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-40%, -40%);
+}
